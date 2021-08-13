@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+/* Root Elements */
+html {
+    font-size: 24px;
+    line-height: 1.4rem;
+    /* System Fonts: Serif */
+    font-family: Noto Serif, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+                 Droid Serif, Times, Source Serif Pro, Apple Color Emoji,
+                 Segoe UI Emoji, Segoe UI Symbol, serif;
+    background-color: #FCFBF9;
+    color: #605A52;
+}
+
+body {
+    padding: 0.8rem 1rem;
+    max-width: 28rem;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+
+/* Paragraphs */
+p {}
+p, blockquote {
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2.4rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+}
+h1 {
+    font-size: 1.4rem;
+}
+h2 {
+    font-size: 1.26rem;
+}
+h3 {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Site Header */
+header {
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+header > img {
+    max-width: 8rem;
+}
+
+header hr {
+    height: 1px;
+    border: 0;
+    margin-top: 1rem;
+    color: #ccc;
+    border-color: #ccc;
+    background-color: #ccc;
+    max-width: 8rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Links */
+a {
+    text-decoration: underline;
+    color: #83577D;
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+a:hover {
+    background-color: #F0EBED;
+}
+a.simple {
+    color: #605A52;
+    text-decoration: none;
+}
+
+/* Blockquotes */
+blockquote {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    color: #605A52;
+}
+blockquote footer {
+    text-align: right;
+    font-style: italic;
+}
+
+/* Lists */
+ul li {
+    margin-bottom: 0.4rem;
+}
+
+/* Utilities */
+.right {
+    text-align: right;
+}
+.italic, .eg-italic {
+    font-style: italic;
+}
+.small {
+    font-size: 0.84rem;
+}
+
+/* Aesthetic Elements */
+hr.asterism {
+    border: none;
+    overflow: hidden;
+    height: 1.4rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+hr.asterism::before {
+    content: "⁂";
+    color: #605A52;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Images */
+img {
+  max-width: 660px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/* Code */
+pre, code {
+    font-family: Menlo, Consolas, Monaco, Droid Sans Mono,
+                 Liberation Mono, Lucida Console, monospace;
+    font-size: 0.82rem;
+}
+
+/* Media Queries */
+@media (max-width: 760px) {
+    html {
+        font-size: 20px;
+    }
+    body {
+        padding: 1rem;
+        max-width: auto;
+        margin: auto;
+    }
+    blockquote {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+}
