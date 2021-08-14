@@ -3,7 +3,7 @@
 #
 
 serve:
-	python3 -m http.server --directory ./src
+	python3 -m http.server
 
 
 .PHONY: serve
