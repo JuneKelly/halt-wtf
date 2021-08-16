@@ -147,7 +147,7 @@ pre, code {
 /* Media Queries */
 @media (max-width: 760px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
     body {
         padding: 1rem;
