@@ -19,7 +19,7 @@ body {
 
 /* Paragraphs */
 p {}
-p, blockquote {
+p, blockquote, code {
     margin-bottom: 1rem;
 }
 
@@ -62,7 +62,7 @@ header hr {
     color: #ccc;
     border-color: #ccc;
     background-color: #ccc;
-    max-width: 8rem;
+    max-width: 6rem;
 }
 
 header h1 {
@@ -141,9 +141,7 @@ img {
 
 /* Code */
 pre, code {
-    font-family: Menlo, Consolas, Monaco, Droid Sans Mono,
-                 Liberation Mono, Lucida Console, monospace;
-    font-size: 0.82rem;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 /* Media Queries */
